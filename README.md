@@ -27,13 +27,13 @@ PennyLane, Qiskit, Matplotlib (see requirements.yml)
 
 Download the repository as a zip file. If used locally instead of Google Colab, unzip it and create an environment using the requirements.yml file. 
 
-conda env create -f requirements.yml
+`conda env create -f requirements.yml`
 
-conda activate quantum
+`conda activate quantum`
 
 Open any notebook and run cells top-to-bottom. Notebooks are self-contained and use synthetic/example data.
 
--- 📑 Notes
+## 📑 Notes
 
 Methods and encodings are based on public literature; original implementations and didactic extensions here are my own.
 No proprietary or internal NASERTIC materials are included.
