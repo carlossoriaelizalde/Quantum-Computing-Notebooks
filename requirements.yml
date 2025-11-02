@@ -1,0 +1,28 @@
+name: vqa_annealing_grover
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipython=8.24
+  - dwave-ocean-sdk
+  - dwave-networkx
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - ipywidgets
+  - notebook
+  - psutil
+  - seaborn
+  - pip:
+      - pennylane
+      - pennylane-lightning
+      - qiskit==1.0.1
+      - qiskit_algorithms==0.3.0
+      - qiskit_optimization==0.6.1
+      - docplex
+
+
